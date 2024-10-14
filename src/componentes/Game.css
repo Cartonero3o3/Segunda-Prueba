@@ -1,0 +1,28 @@
+.game-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.square {
+    width: 200px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid #000;
+    font-size: 3rem;
+}
+
+
+.inputDeLocos {
+    padding: 10px;
+    margin-top: 5%;
+    font-size: 1.2rem;
+}
+
+button {
+    cursor: pointer;
+}
